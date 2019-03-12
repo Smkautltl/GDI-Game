@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Blackhole_Frame_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_15.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_6_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Player_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion_Frame_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion_Frame_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_7.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Explosion_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small_Explosion_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Player_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Player_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Player_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_30.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Explosion_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Big_Explosion_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_10.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_2_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_14.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion_Frame_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion_Frame_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Player_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion_Frame_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion_Frame_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Explosion_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Big_Explosion_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion_Frame_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion_Frame_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_07.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_27.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Explosion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small_Explosion_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Explosion_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small_Explosion_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Explosion_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small_Explosion_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_3_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Explosion_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small_Explosion_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Explosion_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Big_Explosion_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Player_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif-1-726a68d2187c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif-1-726a68d2187c.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Explosion_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Big_Explosion_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Explosion_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Big_Explosion_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_6.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Player_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_8.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_13.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Explosion_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Big_Explosion_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_18.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boss_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boss_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_17.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Explosion_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small_Explosion_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameOver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion_Frame_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion_Frame_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_5_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion_Frame_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion_Frame_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings-cog-gear-interface-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings-cog-gear-interface-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_1_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Explosion_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small_Explosion_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bullet_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bullet11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Explosion_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Big_Explosion_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small_Explosion_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small_Explosion_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Player_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Player_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big_Explosion_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Big_Explosion_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_4.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_9.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_12.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Enemy_4_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemy_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion_Frame_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion_Frame_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_11.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blackhole_Frame_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blackhole_Frame_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion_Frame_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion_Frame_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpecialBullet__Frame_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpecialBullet _Frame_16.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leaderboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leaderboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart_Frame_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heart_Frame_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
